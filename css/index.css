@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: "Ballo Tamma 2";
+  font-size: 13px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 922px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* navbar */
+
+#header {
+  color: #333;
+  width: 902px;
+  padding: 10px;
+  height: 150px;
+  margin: 10px 0px 5px 0px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navigation-bar {
+  width: 100%; /* i'm assuming full width */
+  height: 120px; /* change it to desired width */
+  background-color: black; /* change to desired color */
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  height: 100px;
+  margin-right: 20px;
+  padding-right: 120px; /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+  display: inline-block;
+  font-size: 30px;
+  vertical-align: top;
+  margin-right: 60px;
+  height: 80px; /* if you want it to take the full height of the bar */
+  line-height: 80px;
+  text-decoration: none;
+  color: white;
+  font-family: "Do Hyeon";
+  /* if you want it vertically middle of the navbar */
+}
+
+.navigation-bar > a:hover {
+  background-color: orange;
+}
+
+/* body */
+
+#faux {
+  margin-top: -10px;
+  width: 100%;
+  background-color: black;
+  height: 1000px;
+}
+
+#leftcolumn {
+  float: left;
+  color: white;
+  margin: 12px;
+  padding: 0;
+  width: 902px;
+}
+
+#leftcolumn > img {
+  width: 100%;
+}

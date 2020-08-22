@@ -1,74 +1,73 @@
 .judul-utama {
-    justify-content: space-around;
-    padding: 20px;
-    border-radius: 3%;
-    background-color: rgb(241, 170, 153);
-    height: 300px;
-    font-size: 50px;
-    text-align: center;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 3%;
+  background-color: rgb(241, 170, 153);
+  height: 300px;
+  font-size: 50px;
+  text-align: center;
 }
 
 .flex-box {
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-    display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
 }
 .bg-pembuka {
-    padding: 20px;
-    text-align: center;
-    border-radius: 3%;
-    height: 670px;
-    background-color: rgb(211, 164, 110);
-
+  padding: 20px;
+  text-align: center;
+  border-radius: 3%;
+  height: 670px;
+  background-color: rgb(211, 164, 110);
 }
 
 .bg-utama {
-    padding: 20px;
-    text-align: center;
-    border-radius: 3%;
-    height: 770px;
-    background-color: rgb(228, 161, 98);
+  padding: 20px;
+  text-align: center;
+  border-radius: 3%;
+  height: 770px;
+  background-color: rgb(228, 161, 98);
 }
 
 .bg-penutup {
-    padding: 20px;
-    text-align: center;
-    border-radius: 3%;
-    height: 670px;
-    background-color: rgb(209, 157, 115);
+  padding: 20px;
+  text-align: center;
+  border-radius: 3%;
+  height: 670px;
+  background-color: rgb(209, 157, 115);
 }
 
 .box-makanan-pembuka {
-        border-radius: 3%;
-        background-color: burlywood;
-        width: 250px;
-        height: 500px;
-        padding: 20px;
+  border-radius: 3%;
+  background-color: burlywood;
+  width: 250px;
+  height: 500px;
+  padding: 20px;
 }
 
 .box-makanan-utama {
-    border-radius: 3%;
-    background-color: coral;
-    width: 250px;
-    height: 600px;
-    padding: 20px;
+  border-radius: 3%;
+  background-color: coral;
+  width: 250px;
+  height: 600px;
+  padding: 20px;
 }
 
 .box-makanan-penutup {
-    border-radius: 3%;
-    background-color: darksalmon;
-    width: 250px;
-    height: 500px;
-    padding: 20px;
+  border-radius: 3%;
+  background-color: darksalmon;
+  width: 250px;
+  height: 500px;
+  padding: 20px;
 }
 
 .gambar {
-    border-radius: 3%;
-    width: 245px;
-    height: 210px;
+  border-radius: 3%;
+  width: 245px;
+  height: 210px;
 }
 
 .nama-makanan {
-    font-size: 20px;
+  font-size: 20px;
 }
