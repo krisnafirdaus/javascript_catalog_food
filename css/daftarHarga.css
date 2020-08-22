@@ -1,0 +1,41 @@
+
+.judul-page {
+    border-radius: 3%;
+    height: 200px;
+    background-color: rgb(223, 153, 112);
+    text-align: center;
+    font-size: 50px;
+}
+.flex-box-seluruh-harga {
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-makanan-pembuka {
+    border-radius: 3%;
+    background-color: burlywood;
+    width: 400px;
+    padding: 20px;
+}
+
+.box-makanan-utama {
+    border-radius: 3%;
+    background-color: coral;
+    width: 400px;
+    padding: 20px;
+}
+
+.box-makanan-penutup {
+    border-radius: 3%;
+    background-color: darksalmon;
+    width: 400px;
+    padding: 20px;
+}
+
+.judul-menu {
+    font-size: 18px;
+    font-weight: 800;
+}
+
