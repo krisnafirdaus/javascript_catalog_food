@@ -51,6 +51,7 @@ ul.sidenav li a:hover:not(.active) {
 .sidenav img {
   height: 100px;
   float: left;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 900px) {
