@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
+<head>
+  <meta charset="utf-8">
+  <title>KYZ Foodie Food Catalog</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/index.css" />
+  <link href="css/stylehome.css" rel="stylesheet">
 
-    <!-- Fonts Google -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Do+Hyeon&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <ul class="sidenav">
-      <a href="index.html"><img src="images/Group.png" alt="" /></a>
 
-      <li class="">
-        <a href="index/login.html"><button>Login</button></a>
-      </li>
-      <li><a href="index/about.html">About</a></li>
-      <li><a href="index/daftarHarga.html">Pricing</a></li>
-      <li><a href="index/foodCategory.html">Product</a></li>
-      <li><a class="active" href="index.html">Home</a></li>
-    </ul>
+</head>
 
-    <div class="content">
-      <h1>Food Catalog</h1>
-      <p>
-        Lihat Makanan Diseluruh Indonesia Hanya Dengan Sentuhan
-      </p>
-      <img src="Gambar product pricing/gado gado.jpg" alt="" />
+<body>
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="index.html"><img src="img home about/logo.png" alt="" title="" /></img></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="index.html">Home</a></li>
+          <li><a href="index/about.html">About Us</a></li>
+          <li><a href="index/foodCategory.html">Products</a></li>
+          <li><a href="index/daftarHarga.html">Pricing</a></li>
+          <li><a href="index/login.html">Login</a></li>
+          <li><a href="index/register.html">Register</a></li>
+        </ul>
+      </nav>
     </div>
-  </body>
-</html>
+  </header>
+
+
+  <section id="hero">
+    <div class="hero-container">
+      <h1>KYZ Foodie</h1>
+      <h2>Indonesian Cuisine at it's Finest</h2>
+      <a href="index/foodCategory.html" class="btn-get-started">Our Products ></a>
+    </div>
+  </section>
+</body>
+
+    
